@@ -35,6 +35,7 @@ sudo yay -S aur/teams --noconfirm
 }
 
 # confirm which task to proceed
+echo -n "What do you want to install? YAY / Edge / Teams?"
 echo -n "Everything(YAY, Edge and Teams)(Y), yay only(a), Edge only(e), Teams only(t) or Quit(q) [Y]: "
 DEFAULT="y"
 read -e -p "Proceed [Y/a/e/t/q]:" PROCEED
