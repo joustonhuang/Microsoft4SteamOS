@@ -9,6 +9,7 @@ sudo pacman-key --populate archlinux
 
 
 InstallYay(){
+
 # install git
 sudo pacman -S base-devel git --noconfirm
 
