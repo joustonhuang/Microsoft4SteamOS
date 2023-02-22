@@ -9,10 +9,6 @@ sudo pacman-key --populate archlinux
 
 
 InstallYay(){
-
-# install git
-sudo pacman -S base-devel git --noconfirm
-
 # Clone yay
 cd /opt
 #sudo git clone https://aur.archlinux.org/yay.git
