@@ -30,5 +30,5 @@ sudo steamos-readonly enable
 
 # Finishing
 echo ""
-echo "Done! Please reboot"
+echo "Done! Please find Microsoft Edge Broswer from start menu"
 echo ""
