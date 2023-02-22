@@ -31,7 +31,8 @@ makepkg -si --noconfirm
 
 InstallTeams(){
 # Install Microsoft Teams from AUR
-sudo yay -S aur/teams --noconfirm
+yay -S aur/teams-for-linux --noconfirm
+sudo pacman -S teams-for-linux --noconfirm
 }
 
 # confirm which task to proceed
