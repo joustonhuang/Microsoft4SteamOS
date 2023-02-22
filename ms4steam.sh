@@ -7,10 +7,11 @@ sudo steamos-readonly disable
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 
+
+InstallYay(){
 # install git
 sudo pacman -S base-devel git --noconfirm
 
-InstallYay(){
 # Clone yay
 cd /opt
 #sudo git clone https://aur.archlinux.org/yay.git
