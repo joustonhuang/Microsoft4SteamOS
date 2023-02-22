@@ -46,6 +46,7 @@ PROCEED="${PROCEED,,}"
 # condition for specific letter
 if [ "${PROCEED}" == "q" ] ; then
   echo "Quitting"
+  sudo steamos-readonly enable
   exit
 # condition for non specific letter (ie anything other than q/y)
 # if you want to have the active 'y' code in the last section
